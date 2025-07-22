@@ -19,7 +19,7 @@ namespace Tanks
         private float _currentSteerAngle;
         
         [Inject]
-        private CinemachineVirtualCamera _camera;
+        [SerializeField] private CinemachineVirtualCamera _camera;
 
         [Header("---References---"), SerializeField]
         [Tooltip("Ссылки на четыре колеса танка")]
