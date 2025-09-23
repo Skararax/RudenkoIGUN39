@@ -1,0 +1,14 @@
+D:\progs\MassivNETO\MassivNETO\bin\Debug\net8.0\MassivNETO.exe
+D:\progs\MassivNETO\MassivNETO\bin\Debug\net8.0\MassivNETO.deps.json
+D:\progs\MassivNETO\MassivNETO\bin\Debug\net8.0\MassivNETO.runtimeconfig.json
+D:\progs\MassivNETO\MassivNETO\bin\Debug\net8.0\MassivNETO.dll
+D:\progs\MassivNETO\MassivNETO\bin\Debug\net8.0\MassivNETO.pdb
+D:\progs\MassivNETO\MassivNETO\obj\Debug\net8.0\MassivNETO.GeneratedMSBuildEditorConfig.editorconfig
+D:\progs\MassivNETO\MassivNETO\obj\Debug\net8.0\MassivNETO.AssemblyInfoInputs.cache
+D:\progs\MassivNETO\MassivNETO\obj\Debug\net8.0\MassivNETO.AssemblyInfo.cs
+D:\progs\MassivNETO\MassivNETO\obj\Debug\net8.0\MassivNETO.csproj.CoreCompileInputs.cache
+D:\progs\MassivNETO\MassivNETO\obj\Debug\net8.0\MassivNETO.dll
+D:\progs\MassivNETO\MassivNETO\obj\Debug\net8.0\refint\MassivNETO.dll
+D:\progs\MassivNETO\MassivNETO\obj\Debug\net8.0\MassivNETO.pdb
+D:\progs\MassivNETO\MassivNETO\obj\Debug\net8.0\MassivNETO.genruntimeconfig.cache
+D:\progs\MassivNETO\MassivNETO\obj\Debug\net8.0\ref\MassivNETO.dll
