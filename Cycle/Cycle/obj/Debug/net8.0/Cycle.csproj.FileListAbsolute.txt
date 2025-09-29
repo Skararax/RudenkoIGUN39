@@ -1,0 +1,15 @@
+D:\GAMEDEV\3D Tank\Cycle\Cycle\bin\Debug\net8.0\Cycle.exe
+D:\GAMEDEV\3D Tank\Cycle\Cycle\bin\Debug\net8.0\Cycle.deps.json
+D:\GAMEDEV\3D Tank\Cycle\Cycle\bin\Debug\net8.0\Cycle.runtimeconfig.json
+D:\GAMEDEV\3D Tank\Cycle\Cycle\bin\Debug\net8.0\Cycle.dll
+D:\GAMEDEV\3D Tank\Cycle\Cycle\bin\Debug\net8.0\Cycle.pdb
+D:\GAMEDEV\3D Tank\Cycle\Cycle\obj\Debug\net8.0\Cycle.GeneratedMSBuildEditorConfig.editorconfig
+D:\GAMEDEV\3D Tank\Cycle\Cycle\obj\Debug\net8.0\Cycle.AssemblyInfoInputs.cache
+D:\GAMEDEV\3D Tank\Cycle\Cycle\obj\Debug\net8.0\Cycle.AssemblyInfo.cs
+D:\GAMEDEV\3D Tank\Cycle\Cycle\obj\Debug\net8.0\Cycle.csproj.CoreCompileInputs.cache
+D:\GAMEDEV\3D Tank\Cycle\Cycle\obj\Debug\net8.0\Cycle.sourcelink.json
+D:\GAMEDEV\3D Tank\Cycle\Cycle\obj\Debug\net8.0\Cycle.dll
+D:\GAMEDEV\3D Tank\Cycle\Cycle\obj\Debug\net8.0\refint\Cycle.dll
+D:\GAMEDEV\3D Tank\Cycle\Cycle\obj\Debug\net8.0\Cycle.pdb
+D:\GAMEDEV\3D Tank\Cycle\Cycle\obj\Debug\net8.0\Cycle.genruntimeconfig.cache
+D:\GAMEDEV\3D Tank\Cycle\Cycle\obj\Debug\net8.0\ref\Cycle.dll
