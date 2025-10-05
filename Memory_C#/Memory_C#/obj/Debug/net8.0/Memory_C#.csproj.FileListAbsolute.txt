@@ -1,0 +1,15 @@
+D:\GAMEDEV\3D Tank\Memory_C#\Memory_C#\obj\Debug\net8.0\Memory_C#.GeneratedMSBuildEditorConfig.editorconfig
+D:\GAMEDEV\3D Tank\Memory_C#\Memory_C#\obj\Debug\net8.0\Memory_C#.AssemblyInfoInputs.cache
+D:\GAMEDEV\3D Tank\Memory_C#\Memory_C#\obj\Debug\net8.0\Memory_C#.AssemblyInfo.cs
+D:\GAMEDEV\3D Tank\Memory_C#\Memory_C#\obj\Debug\net8.0\Memory_C#.csproj.CoreCompileInputs.cache
+D:\GAMEDEV\3D Tank\Memory_C#\Memory_C#\obj\Debug\net8.0\Memory_C#.sourcelink.json
+D:\GAMEDEV\3D Tank\Memory_C#\Memory_C#\bin\Debug\net8.0\Memory_C#.exe
+D:\GAMEDEV\3D Tank\Memory_C#\Memory_C#\bin\Debug\net8.0\Memory_C#.deps.json
+D:\GAMEDEV\3D Tank\Memory_C#\Memory_C#\bin\Debug\net8.0\Memory_C#.runtimeconfig.json
+D:\GAMEDEV\3D Tank\Memory_C#\Memory_C#\bin\Debug\net8.0\Memory_C#.dll
+D:\GAMEDEV\3D Tank\Memory_C#\Memory_C#\bin\Debug\net8.0\Memory_C#.pdb
+D:\GAMEDEV\3D Tank\Memory_C#\Memory_C#\obj\Debug\net8.0\Memory_C#.dll
+D:\GAMEDEV\3D Tank\Memory_C#\Memory_C#\obj\Debug\net8.0\refint\Memory_C#.dll
+D:\GAMEDEV\3D Tank\Memory_C#\Memory_C#\obj\Debug\net8.0\Memory_C#.pdb
+D:\GAMEDEV\3D Tank\Memory_C#\Memory_C#\obj\Debug\net8.0\Memory_C#.genruntimeconfig.cache
+D:\GAMEDEV\3D Tank\Memory_C#\Memory_C#\obj\Debug\net8.0\ref\Memory_C#.dll
