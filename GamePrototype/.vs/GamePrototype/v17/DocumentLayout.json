@@ -1,0 +1,448 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|d:\\gamedev\\ghost\u0441leaver\\gameprototype\\gameprototype.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:gameprototype.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|d:\\gamedev\\ghost\u0441leaver\\gameprototype\\units\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:units\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|d:\\gamedev\\ghost\u0441leaver\\gameprototype\\items\\equipitems\\rangeweapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:items\\equipitems\\rangeweapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|d:\\gamedev\\ghost\u0441leaver\\gameprototype\\items\\economicitems\\helmet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:items\\economicitems\\helmet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|d:\\gamedev\\ghost\u0441leaver\\gameprototype\\units\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:units\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|d:\\gamedev\\ghost\u0441leaver\\gameprototype\\units\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:units\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|d:\\gamedev\\ghost\u0441leaver\\gameprototype\\items\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:items\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|d:\\gamedev\\ghost\u0441leaver\\gameprototype\\utils\\equipslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:utils\\equipslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|d:\\gamedev\\ghost\u0441leaver\\gameprototype\\items\\economicitems\\grindstone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:items\\economicitems\\grindstone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|d:\\gamedev\\ghost\u0441leaver\\gameprototype\\items\\equipitems\\equipitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:items\\equipitems\\equipitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|d:\\gamedev\\ghost\u0441leaver\\gameprototype\\units\\goblin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:units\\goblin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|d:\\gamedev\\ghost\u0441leaver\\gameprototype\\items\\economicitems\\economicitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:items\\economicitems\\economicitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|d:\\gamedev\\ghost\u0441leaver\\gameprototype\\items\\equipitems\\armour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:items\\equipitems\\armour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|d:\\gamedev\\ghost\u0441leaver\\gameprototype\\items\\equipitems\\durability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:items\\equipitems\\durability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|d:\\gamedev\\ghost\u0441leaver\\gameprototype\\utils\\dungeonbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:utils\\dungeonbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|d:\\gamedev\\ghost\u0441leaver\\gameprototype\\combat\\rockpaperscissors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:combat\\rockpaperscissors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|d:\\gamedev\\ghost\u0441leaver\\gameprototype\\utils\\unitfactorydemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:utils\\unitfactorydemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|d:\\gamedev\\ghost\u0441leaver\\gameprototype\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|d:\\gamedev\\ghost\u0441leaver\\gameprototype\\dungeon\\dungeonroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:dungeon\\dungeonroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|d:\\gamedev\\ghost\u0441leaver\\gameprototype\\game\\gameloop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:game\\gameloop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|d:\\gamedev\\ghost\u0441leaver\\gameprototype\\dungeon\\direction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:dungeon\\direction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|d:\\gamedev\\ghost\u0441leaver\\gameprototype\\combat\\combatmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:combat\\combatmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|d:\\gamedev\\ghost\u0441leaver\\gameprototype\\items\\equipitems\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:items\\equipitems\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|d:\\gamedev\\ghost\u0441leaver\\gameprototype\\utils\\gameconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:utils\\gameconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|d:\\gamedev\\ghost\u0441leaver\\gameprototype\\items\\economicitems\\gold.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:items\\economicitems\\gold.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|d:\\gamedev\\ghost\u0441leaver\\gameprototype\\items\\economicitems\\healthpotion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:items\\economicitems\\healthpotion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GamePrototype",
+              "DocumentMoniker": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\GamePrototype.csproj",
+              "RelativeDocumentMoniker": "GamePrototype.csproj",
+              "ToolTip": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\GamePrototype.csproj",
+              "RelativeToolTip": "GamePrototype.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-25T13:56:26.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Unit.cs",
+              "DocumentMoniker": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Units\\Unit.cs",
+              "RelativeDocumentMoniker": "Units\\Unit.cs",
+              "ToolTip": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Units\\Unit.cs",
+              "RelativeToolTip": "Units\\Unit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T16:04:12.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Player.cs",
+              "DocumentMoniker": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Units\\Player.cs",
+              "RelativeDocumentMoniker": "Units\\Player.cs",
+              "ToolTip": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Units\\Player.cs",
+              "RelativeToolTip": "Units\\Player.cs",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAIwKcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T16:04:12.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Item.cs",
+              "DocumentMoniker": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Items\\Item.cs",
+              "RelativeDocumentMoniker": "Items\\Item.cs",
+              "ToolTip": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Items\\Item.cs",
+              "RelativeToolTip": "Items\\Item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T16:04:12.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Inventory.cs",
+              "DocumentMoniker": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Units\\Inventory.cs",
+              "RelativeDocumentMoniker": "Units\\Inventory.cs",
+              "ToolTip": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Units\\Inventory.cs",
+              "RelativeToolTip": "Units\\Inventory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T16:04:12.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EquipItem.cs",
+              "DocumentMoniker": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Items\\EquipItems\\EquipItem.cs",
+              "RelativeDocumentMoniker": "Items\\EquipItems\\EquipItem.cs",
+              "ToolTip": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Items\\EquipItems\\EquipItem.cs",
+              "RelativeToolTip": "Items\\EquipItems\\EquipItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T16:04:12.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Goblin.cs",
+              "DocumentMoniker": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Units\\Goblin.cs",
+              "RelativeDocumentMoniker": "Units\\Goblin.cs",
+              "ToolTip": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Units\\Goblin.cs",
+              "RelativeToolTip": "Units\\Goblin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T16:04:12.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EquipSlot.cs",
+              "DocumentMoniker": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Utils\\EquipSlot.cs",
+              "RelativeDocumentMoniker": "Utils\\EquipSlot.cs",
+              "ToolTip": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Utils\\EquipSlot.cs",
+              "RelativeToolTip": "Utils\\EquipSlot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T16:04:12.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Grindstone.cs",
+              "DocumentMoniker": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Items\\EconomicItems\\Grindstone.cs",
+              "RelativeDocumentMoniker": "Items\\EconomicItems\\Grindstone.cs",
+              "ToolTip": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Items\\EconomicItems\\Grindstone.cs",
+              "RelativeToolTip": "Items\\EconomicItems\\Grindstone.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T16:04:12.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RangeWeapon.cs",
+              "DocumentMoniker": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Items\\EquipItems\\RangeWeapon.cs",
+              "RelativeDocumentMoniker": "Items\\EquipItems\\RangeWeapon.cs",
+              "ToolTip": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Items\\EquipItems\\RangeWeapon.cs",
+              "RelativeToolTip": "Items\\EquipItems\\RangeWeapon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T11:12:34.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Helmet.cs",
+              "DocumentMoniker": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Items\\EconomicItems\\Helmet.cs",
+              "RelativeDocumentMoniker": "Items\\EconomicItems\\Helmet.cs",
+              "ToolTip": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Items\\EconomicItems\\Helmet.cs",
+              "RelativeToolTip": "Items\\EconomicItems\\Helmet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T09:02:35.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DungeonBuilder.cs",
+              "DocumentMoniker": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Utils\\DungeonBuilder.cs",
+              "RelativeDocumentMoniker": "Utils\\DungeonBuilder.cs",
+              "ToolTip": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Utils\\DungeonBuilder.cs",
+              "RelativeToolTip": "Utils\\DungeonBuilder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T16:04:12.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RockPaperScissors.cs",
+              "DocumentMoniker": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Combat\\RockPaperScissors.cs",
+              "RelativeDocumentMoniker": "Combat\\RockPaperScissors.cs",
+              "ToolTip": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Combat\\RockPaperScissors.cs",
+              "RelativeToolTip": "Combat\\RockPaperScissors.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T16:04:12.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EconomicItem.cs",
+              "DocumentMoniker": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Items\\EconomicItems\\EconomicItem.cs",
+              "RelativeDocumentMoniker": "Items\\EconomicItems\\EconomicItem.cs",
+              "ToolTip": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Items\\EconomicItems\\EconomicItem.cs",
+              "RelativeToolTip": "Items\\EconomicItems\\EconomicItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T16:04:12.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Durability.cs",
+              "DocumentMoniker": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Items\\EquipItems\\Durability.cs",
+              "RelativeDocumentMoniker": "Items\\EquipItems\\Durability.cs",
+              "ToolTip": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Items\\EquipItems\\Durability.cs",
+              "RelativeToolTip": "Items\\EquipItems\\Durability.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T09:05:45.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Armour.cs",
+              "DocumentMoniker": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Items\\EquipItems\\Armour.cs",
+              "RelativeDocumentMoniker": "Items\\EquipItems\\Armour.cs",
+              "ToolTip": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Items\\EquipItems\\Armour.cs",
+              "RelativeToolTip": "Items\\EquipItems\\Armour.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T16:04:12.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UnitFactoryDemo.cs",
+              "DocumentMoniker": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Utils\\UnitFactoryDemo.cs",
+              "RelativeDocumentMoniker": "Utils\\UnitFactoryDemo.cs",
+              "ToolTip": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Utils\\UnitFactoryDemo.cs",
+              "RelativeToolTip": "Utils\\UnitFactoryDemo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T16:04:12.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DungeonRoom.cs",
+              "DocumentMoniker": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Dungeon\\DungeonRoom.cs",
+              "RelativeDocumentMoniker": "Dungeon\\DungeonRoom.cs",
+              "ToolTip": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Dungeon\\DungeonRoom.cs",
+              "RelativeToolTip": "Dungeon\\DungeonRoom.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T16:04:12.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Direction.cs",
+              "DocumentMoniker": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Dungeon\\Direction.cs",
+              "RelativeDocumentMoniker": "Dungeon\\Direction.cs",
+              "ToolTip": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Dungeon\\Direction.cs",
+              "RelativeToolTip": "Dungeon\\Direction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T16:04:12.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T16:04:12.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "GameLoop.cs",
+              "DocumentMoniker": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Game\\GameLoop.cs",
+              "RelativeDocumentMoniker": "Game\\GameLoop.cs",
+              "ToolTip": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Game\\GameLoop.cs",
+              "RelativeToolTip": "Game\\GameLoop.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T16:04:12.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CombatManager.cs",
+              "DocumentMoniker": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Combat\\CombatManager.cs",
+              "RelativeDocumentMoniker": "Combat\\CombatManager.cs",
+              "ToolTip": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Combat\\CombatManager.cs",
+              "RelativeToolTip": "Combat\\CombatManager.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAmwCsAAABfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T16:04:12.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Weapon.cs",
+              "DocumentMoniker": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Items\\EquipItems\\Weapon.cs",
+              "RelativeDocumentMoniker": "Items\\EquipItems\\Weapon.cs",
+              "ToolTip": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Items\\EquipItems\\Weapon.cs",
+              "RelativeToolTip": "Items\\EquipItems\\Weapon.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T16:04:12.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "GameConstants.cs",
+              "DocumentMoniker": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Utils\\GameConstants.cs",
+              "RelativeDocumentMoniker": "Utils\\GameConstants.cs",
+              "ToolTip": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Utils\\GameConstants.cs",
+              "RelativeToolTip": "Utils\\GameConstants.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T16:04:12.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Gold.cs",
+              "DocumentMoniker": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Items\\EconomicItems\\Gold.cs",
+              "RelativeDocumentMoniker": "Items\\EconomicItems\\Gold.cs",
+              "ToolTip": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Items\\EconomicItems\\Gold.cs",
+              "RelativeToolTip": "Items\\EconomicItems\\Gold.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T16:04:12.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "HealthPotion.cs",
+              "DocumentMoniker": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Items\\EconomicItems\\HealthPotion.cs",
+              "RelativeDocumentMoniker": "Items\\EconomicItems\\HealthPotion.cs",
+              "ToolTip": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Items\\EconomicItems\\HealthPotion.cs",
+              "RelativeToolTip": "Items\\EconomicItems\\HealthPotion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T16:04:12.107Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
