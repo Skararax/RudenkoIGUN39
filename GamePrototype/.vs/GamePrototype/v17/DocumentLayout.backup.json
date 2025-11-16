@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|d:\\gamedev\\ghost\u0441leaver\\gameprototype\\gameprototype.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:gameprototype.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|d:\\gamedev\\ghost\u0441leaver\\gameprototype\\units\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD66E181-5549-4E58-B2BF-1E870F087123}|GamePrototype.csproj|solutionrelative:units\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -110,11 +114,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "GamePrototype",
+              "DocumentMoniker": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\GamePrototype.csproj",
+              "RelativeDocumentMoniker": "GamePrototype.csproj",
+              "ToolTip": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\GamePrototype.csproj",
+              "RelativeToolTip": "GamePrototype.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-25T13:56:26.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Unit.cs",
               "DocumentMoniker": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Units\\Unit.cs",
               "RelativeDocumentMoniker": "Units\\Unit.cs",
@@ -127,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Player.cs",
               "DocumentMoniker": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Units\\Player.cs",
               "RelativeDocumentMoniker": "Units\\Player.cs",
@@ -140,7 +157,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Item.cs",
               "DocumentMoniker": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Items\\Item.cs",
               "RelativeDocumentMoniker": "Items\\Item.cs",
@@ -153,7 +170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Inventory.cs",
               "DocumentMoniker": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Units\\Inventory.cs",
               "RelativeDocumentMoniker": "Units\\Inventory.cs",
@@ -166,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "EquipItem.cs",
               "DocumentMoniker": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Items\\EquipItems\\EquipItem.cs",
               "RelativeDocumentMoniker": "Items\\EquipItems\\EquipItem.cs",
@@ -179,7 +196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Goblin.cs",
               "DocumentMoniker": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Units\\Goblin.cs",
               "RelativeDocumentMoniker": "Units\\Goblin.cs",
@@ -192,7 +209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "EquipSlot.cs",
               "DocumentMoniker": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Utils\\EquipSlot.cs",
               "RelativeDocumentMoniker": "Utils\\EquipSlot.cs",
@@ -205,7 +222,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Grindstone.cs",
               "DocumentMoniker": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Items\\EconomicItems\\Grindstone.cs",
               "RelativeDocumentMoniker": "Items\\EconomicItems\\Grindstone.cs",
@@ -218,7 +235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "RangeWeapon.cs",
               "DocumentMoniker": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Items\\EquipItems\\RangeWeapon.cs",
               "RelativeDocumentMoniker": "Items\\EquipItems\\RangeWeapon.cs",
@@ -231,7 +248,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Helmet.cs",
               "DocumentMoniker": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Items\\EconomicItems\\Helmet.cs",
               "RelativeDocumentMoniker": "Items\\EconomicItems\\Helmet.cs",
@@ -244,7 +261,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "DungeonBuilder.cs",
               "DocumentMoniker": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Utils\\DungeonBuilder.cs",
               "RelativeDocumentMoniker": "Utils\\DungeonBuilder.cs",
@@ -256,7 +273,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "RockPaperScissors.cs",
               "DocumentMoniker": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Combat\\RockPaperScissors.cs",
               "RelativeDocumentMoniker": "Combat\\RockPaperScissors.cs",
@@ -268,7 +285,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "EconomicItem.cs",
               "DocumentMoniker": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Items\\EconomicItems\\EconomicItem.cs",
               "RelativeDocumentMoniker": "Items\\EconomicItems\\EconomicItem.cs",
@@ -281,7 +298,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Durability.cs",
               "DocumentMoniker": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Items\\EquipItems\\Durability.cs",
               "RelativeDocumentMoniker": "Items\\EquipItems\\Durability.cs",
@@ -293,7 +310,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Armour.cs",
               "DocumentMoniker": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Items\\EquipItems\\Armour.cs",
               "RelativeDocumentMoniker": "Items\\EquipItems\\Armour.cs",
@@ -305,7 +322,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "UnitFactoryDemo.cs",
               "DocumentMoniker": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Utils\\UnitFactoryDemo.cs",
               "RelativeDocumentMoniker": "Utils\\UnitFactoryDemo.cs",
@@ -317,7 +334,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "DungeonRoom.cs",
               "DocumentMoniker": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Dungeon\\DungeonRoom.cs",
               "RelativeDocumentMoniker": "Dungeon\\DungeonRoom.cs",
@@ -329,7 +346,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Direction.cs",
               "DocumentMoniker": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Dungeon\\Direction.cs",
               "RelativeDocumentMoniker": "Dungeon\\Direction.cs",
@@ -341,7 +358,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -353,7 +370,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "GameLoop.cs",
               "DocumentMoniker": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Game\\GameLoop.cs",
               "RelativeDocumentMoniker": "Game\\GameLoop.cs",
@@ -365,7 +382,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "CombatManager.cs",
               "DocumentMoniker": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Combat\\CombatManager.cs",
               "RelativeDocumentMoniker": "Combat\\CombatManager.cs",
@@ -377,7 +394,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "Weapon.cs",
               "DocumentMoniker": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Items\\EquipItems\\Weapon.cs",
               "RelativeDocumentMoniker": "Items\\EquipItems\\Weapon.cs",
@@ -389,7 +406,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "GameConstants.cs",
               "DocumentMoniker": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Utils\\GameConstants.cs",
               "RelativeDocumentMoniker": "Utils\\GameConstants.cs",
@@ -401,7 +418,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "Gold.cs",
               "DocumentMoniker": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Items\\EconomicItems\\Gold.cs",
               "RelativeDocumentMoniker": "Items\\EconomicItems\\Gold.cs",
@@ -413,7 +430,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "HealthPotion.cs",
               "DocumentMoniker": "D:\\GAMEDEV\\Ghost\u0421leaver\\GamePrototype\\Items\\EconomicItems\\HealthPotion.cs",
               "RelativeDocumentMoniker": "Items\\EconomicItems\\HealthPotion.cs",

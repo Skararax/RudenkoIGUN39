@@ -1,0 +1,205 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GAMEDEV\\3D Tank\\LessOOP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7A68831B-7C2A-49DD-8039-DEA71A818C39}|LessOOP\\LessOOP.csproj|d:\\gamedev\\3d tank\\lessoop\\lessoop\\warrior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A68831B-7C2A-49DD-8039-DEA71A818C39}|LessOOP\\LessOOP.csproj|solutionrelative:lessoop\\warrior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A68831B-7C2A-49DD-8039-DEA71A818C39}|LessOOP\\LessOOP.csproj|d:\\gamedev\\3d tank\\lessoop\\lessoop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A68831B-7C2A-49DD-8039-DEA71A818C39}|LessOOP\\LessOOP.csproj|solutionrelative:lessoop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A68831B-7C2A-49DD-8039-DEA71A818C39}|LessOOP\\LessOOP.csproj|d:\\gamedev\\3d tank\\lessoop\\lessoop\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A68831B-7C2A-49DD-8039-DEA71A818C39}|LessOOP\\LessOOP.csproj|solutionrelative:lessoop\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A68831B-7C2A-49DD-8039-DEA71A818C39}|LessOOP\\LessOOP.csproj|d:\\gamedev\\3d tank\\lessoop\\lessoop\\manapotion .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A68831B-7C2A-49DD-8039-DEA71A818C39}|LessOOP\\LessOOP.csproj|solutionrelative:lessoop\\manapotion .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A68831B-7C2A-49DD-8039-DEA71A818C39}|LessOOP\\LessOOP.csproj|d:\\gamedev\\3d tank\\lessoop\\lessoop\\states.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A68831B-7C2A-49DD-8039-DEA71A818C39}|LessOOP\\LessOOP.csproj|solutionrelative:lessoop\\states.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A68831B-7C2A-49DD-8039-DEA71A818C39}|LessOOP\\LessOOP.csproj|d:\\gamedev\\3d tank\\lessoop\\lessoop\\statesmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A68831B-7C2A-49DD-8039-DEA71A818C39}|LessOOP\\LessOOP.csproj|solutionrelative:lessoop\\statesmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A68831B-7C2A-49DD-8039-DEA71A818C39}|LessOOP\\LessOOP.csproj|d:\\gamedev\\3d tank\\lessoop\\lessoop\\character .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A68831B-7C2A-49DD-8039-DEA71A818C39}|LessOOP\\LessOOP.csproj|solutionrelative:lessoop\\character .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A68831B-7C2A-49DD-8039-DEA71A818C39}|LessOOP\\LessOOP.csproj|d:\\gamedev\\3d tank\\lessoop\\lessoop\\battlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A68831B-7C2A-49DD-8039-DEA71A818C39}|LessOOP\\LessOOP.csproj|solutionrelative:lessoop\\battlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A68831B-7C2A-49DD-8039-DEA71A818C39}|LessOOP\\LessOOP.csproj|d:\\gamedev\\3d tank\\lessoop\\lessoop\\mage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A68831B-7C2A-49DD-8039-DEA71A818C39}|LessOOP\\LessOOP.csproj|solutionrelative:lessoop\\mage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A68831B-7C2A-49DD-8039-DEA71A818C39}|LessOOP\\LessOOP.csproj|d:\\gamedev\\3d tank\\lessoop\\lessoop\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A68831B-7C2A-49DD-8039-DEA71A818C39}|LessOOP\\LessOOP.csproj|solutionrelative:lessoop\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A68831B-7C2A-49DD-8039-DEA71A818C39}|LessOOP\\LessOOP.csproj|d:\\gamedev\\3d tank\\lessoop\\lessoop\\rogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A68831B-7C2A-49DD-8039-DEA71A818C39}|LessOOP\\LessOOP.csproj|solutionrelative:lessoop\\rogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Warrior.cs",
+              "DocumentMoniker": "D:\\GAMEDEV\\3D Tank\\LessOOP\\LessOOP\\Warrior.cs",
+              "RelativeDocumentMoniker": "LessOOP\\Warrior.cs",
+              "ToolTip": "D:\\GAMEDEV\\3D Tank\\LessOOP\\LessOOP\\Warrior.cs",
+              "RelativeToolTip": "LessOOP\\Warrior.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T18:00:09.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Inventory.cs",
+              "DocumentMoniker": "D:\\GAMEDEV\\3D Tank\\LessOOP\\LessOOP\\Inventory.cs",
+              "RelativeDocumentMoniker": "LessOOP\\Inventory.cs",
+              "ToolTip": "D:\\GAMEDEV\\3D Tank\\LessOOP\\LessOOP\\Inventory.cs",
+              "RelativeToolTip": "LessOOP\\Inventory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T18:46:23.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ManaPotion .cs",
+              "DocumentMoniker": "D:\\GAMEDEV\\3D Tank\\LessOOP\\LessOOP\\ManaPotion .cs",
+              "RelativeDocumentMoniker": "LessOOP\\ManaPotion .cs",
+              "ToolTip": "D:\\GAMEDEV\\3D Tank\\LessOOP\\LessOOP\\ManaPotion .cs",
+              "RelativeToolTip": "LessOOP\\ManaPotion .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T18:20:35.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Item.cs",
+              "DocumentMoniker": "D:\\GAMEDEV\\3D Tank\\LessOOP\\LessOOP\\Item.cs",
+              "RelativeDocumentMoniker": "LessOOP\\Item.cs",
+              "ToolTip": "D:\\GAMEDEV\\3D Tank\\LessOOP\\LessOOP\\Item.cs",
+              "RelativeToolTip": "LessOOP\\Item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T18:05:15.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Mage.cs",
+              "DocumentMoniker": "D:\\GAMEDEV\\3D Tank\\LessOOP\\LessOOP\\Mage.cs",
+              "RelativeDocumentMoniker": "LessOOP\\Mage.cs",
+              "ToolTip": "D:\\GAMEDEV\\3D Tank\\LessOOP\\LessOOP\\Mage.cs",
+              "RelativeToolTip": "LessOOP\\Mage.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAwwAwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T14:29:18.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BattleManager.cs",
+              "DocumentMoniker": "D:\\GAMEDEV\\3D Tank\\LessOOP\\LessOOP\\BattleManager.cs",
+              "RelativeDocumentMoniker": "LessOOP\\BattleManager.cs",
+              "ToolTip": "D:\\GAMEDEV\\3D Tank\\LessOOP\\LessOOP\\BattleManager.cs",
+              "RelativeToolTip": "LessOOP\\BattleManager.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAA4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T15:12:56.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Character .cs",
+              "DocumentMoniker": "D:\\GAMEDEV\\3D Tank\\LessOOP\\LessOOP\\Character .cs",
+              "RelativeDocumentMoniker": "LessOOP\\Character .cs",
+              "ToolTip": "D:\\GAMEDEV\\3D Tank\\LessOOP\\LessOOP\\Character .cs",
+              "RelativeToolTip": "LessOOP\\Character .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T14:04:50.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Rogue.cs",
+              "DocumentMoniker": "D:\\GAMEDEV\\3D Tank\\LessOOP\\LessOOP\\Rogue.cs",
+              "RelativeDocumentMoniker": "LessOOP\\Rogue.cs",
+              "ToolTip": "D:\\GAMEDEV\\3D Tank\\LessOOP\\LessOOP\\Rogue.cs",
+              "RelativeToolTip": "LessOOP\\Rogue.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T14:59:31.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GAMEDEV\\3D Tank\\LessOOP\\LessOOP\\Program.cs",
+              "RelativeDocumentMoniker": "LessOOP\\Program.cs",
+              "ToolTip": "D:\\GAMEDEV\\3D Tank\\LessOOP\\LessOOP\\Program.cs",
+              "RelativeToolTip": "LessOOP\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T14:03:35.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StatesManager.cs",
+              "DocumentMoniker": "D:\\GAMEDEV\\3D Tank\\LessOOP\\LessOOP\\StatesManager.cs",
+              "RelativeDocumentMoniker": "LessOOP\\StatesManager.cs",
+              "ToolTip": "D:\\GAMEDEV\\3D Tank\\LessOOP\\LessOOP\\StatesManager.cs",
+              "RelativeToolTip": "LessOOP\\StatesManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T18:09:42.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "States.cs",
+              "DocumentMoniker": "D:\\GAMEDEV\\3D Tank\\LessOOP\\LessOOP\\States.cs",
+              "RelativeDocumentMoniker": "LessOOP\\States.cs",
+              "ToolTip": "D:\\GAMEDEV\\3D Tank\\LessOOP\\LessOOP\\States.cs",
+              "RelativeToolTip": "LessOOP\\States.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T18:02:26.46Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

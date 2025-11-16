@@ -1,0 +1,15 @@
+D:\GAMEDEV\3D Tank\LessOOP\LessOOP\bin\Debug\net8.0\LessOOP.exe
+D:\GAMEDEV\3D Tank\LessOOP\LessOOP\bin\Debug\net8.0\LessOOP.deps.json
+D:\GAMEDEV\3D Tank\LessOOP\LessOOP\bin\Debug\net8.0\LessOOP.runtimeconfig.json
+D:\GAMEDEV\3D Tank\LessOOP\LessOOP\bin\Debug\net8.0\LessOOP.dll
+D:\GAMEDEV\3D Tank\LessOOP\LessOOP\bin\Debug\net8.0\LessOOP.pdb
+D:\GAMEDEV\3D Tank\LessOOP\LessOOP\obj\Debug\net8.0\LessOOP.GeneratedMSBuildEditorConfig.editorconfig
+D:\GAMEDEV\3D Tank\LessOOP\LessOOP\obj\Debug\net8.0\LessOOP.AssemblyInfoInputs.cache
+D:\GAMEDEV\3D Tank\LessOOP\LessOOP\obj\Debug\net8.0\LessOOP.AssemblyInfo.cs
+D:\GAMEDEV\3D Tank\LessOOP\LessOOP\obj\Debug\net8.0\LessOOP.csproj.CoreCompileInputs.cache
+D:\GAMEDEV\3D Tank\LessOOP\LessOOP\obj\Debug\net8.0\LessOOP.sourcelink.json
+D:\GAMEDEV\3D Tank\LessOOP\LessOOP\obj\Debug\net8.0\LessOOP.dll
+D:\GAMEDEV\3D Tank\LessOOP\LessOOP\obj\Debug\net8.0\refint\LessOOP.dll
+D:\GAMEDEV\3D Tank\LessOOP\LessOOP\obj\Debug\net8.0\LessOOP.pdb
+D:\GAMEDEV\3D Tank\LessOOP\LessOOP\obj\Debug\net8.0\LessOOP.genruntimeconfig.cache
+D:\GAMEDEV\3D Tank\LessOOP\LessOOP\obj\Debug\net8.0\ref\LessOOP.dll
