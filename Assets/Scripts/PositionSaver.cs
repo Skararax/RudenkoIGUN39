@@ -20,8 +20,8 @@ namespace DefaultNamespace
         [ReadOnly, Tooltip("Используйте контекстное меню → Create File"), SerializeField]
         private TextAsset _json;
 
-        //Сделайте автосвойство Records сериализуемым и скрытым в инспекторе; Я не понял как это сделать с автосвойством :(
-        public List<Data> Records { get; private set; }
+        [field: SerializeField, HideInInspector]
+        public List<Data> Records;
 
         private void Awake()
         {
@@ -41,6 +41,7 @@ namespace DefaultNamespace
             if (Records == null)
                 Records = new List<Data>(10);
         }
+
 
         private void OnDrawGizmos()
         {
@@ -99,7 +100,7 @@ namespace DefaultNamespace
         }
 
         [Serializable]
-        private class SaveWrapper
+        public class SaveWrapper
         {
             public List<Data> Records;
         }

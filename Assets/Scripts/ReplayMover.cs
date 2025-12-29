@@ -12,18 +12,31 @@ namespace DefaultNamespace
 		private PositionSaver.Data _prev;
 		private float _duration;
 
-        private void Start()
+        private void Awake()
 		{
             ////todo comment: зачем нужны эти проверки?
             ///answer: Чтобы избежать NullReferenceException 
-            if (!TryGetComponent(out _save) || _save.Records.Count == 0)
+            if (!TryGetComponent(out _save))
 			{
 				Debug.LogError("Records incorrect value", this);
                 //todo comment: Для чего выключается этот компонент?
                 ///answer: Чтобы у нас не вызывался Exception в каждом кадре
                 enabled = false;
+                return;
 			}
-		}
+            if (_save.Records == null)
+            {
+                Debug.LogError("Records is null (not initialized yet)", this);
+                enabled = false;
+                return;
+            }
+
+            if (_save.Records.Count == 0)
+            {
+                Debug.LogWarning("Records list is empty (0 records)", this);
+                enabled = false;
+            }
+        }
 
 		private void Update()
 		{
