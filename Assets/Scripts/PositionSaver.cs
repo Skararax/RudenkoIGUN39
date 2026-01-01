@@ -20,6 +20,8 @@ namespace DefaultNamespace
         [ReadOnly, Tooltip("Используйте контекстное меню → Create File"), SerializeField]
         private TextAsset _json;
 
+
+
         [field: SerializeField, HideInInspector]
         public List<Data> Records;
 
