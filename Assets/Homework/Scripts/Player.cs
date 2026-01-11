@@ -8,17 +8,19 @@ namespace Netologia.Homework
 		private bool _ready;
 		private Rigidbody _ball;
 		
-		[SerializeField]
-		private Rigidbody _ballPrefab;
-		[SerializeField]
-		private float _startVelocity;
-		[SerializeField]
-		private float _lifetime;
+		[SerializeField] private Rigidbody _ballPrefab;
+		[SerializeField] private GameObject _firePoint;
+		[SerializeField] private float _startVelocity;
+		[SerializeField] private float _lifetime;
 
-		[SerializeField]
-		private float _respawnDelay;
+		[SerializeField] private float _respawnDelay;
 
-		private void Update()
+        private void Start()
+        {
+            Spawn();
+        }
+
+        private void Update()
 		{
 			if (!_ready) return;
 			if (Input.GetKey(KeyCode.Space))
@@ -31,7 +33,7 @@ namespace Netologia.Homework
 			}
 		}
 
-		private IEnumerator Reloader()
+        private IEnumerator Reloader()
 		{
 			_ready = false;
 			yield return new WaitForSeconds(_respawnDelay);
@@ -40,14 +42,11 @@ namespace Netologia.Homework
 
 		private void Spawn()
 		{
-			_ball = Instantiate(_ballPrefab, transform);
+			_ball = Instantiate(_ballPrefab, _firePoint.transform);
 			_ball.isKinematic = true;
 			_ready = true;
 		}
 
-		private void Start()
-		{
-			Spawn();
-		}
+
 	}
 }
