@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5393819133498795771
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4186080548821509509}
+  - component: {fileID: 1073883717398269396}
+  m_Layer: 0
+  m_Name: Battlefield
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4186080548821509509
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5393819133498795771}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7.7865353, y: -10.068549, z: -14.927557}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1073883717398269396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5393819133498795771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2189e9a40fcda43b904d9c9d74e8c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _whitePawnPrefab: {fileID: 8957097053404014294, guid: d835f0dc7854a644dbbc7e0d070bef71, type: 3}
+  _whiteRookPrefab: {fileID: 4346465648699691750, guid: e5c9353d560b31f4f925a893602c2bac, type: 3}
+  _whiteKnightPrefab: {fileID: 3860279765647862777, guid: 36d86cf69290da54ab8ec6c62b24e242, type: 3}
+  _whiteBishopPrefab: {fileID: 5779463493476775053, guid: 09469710ef9e5014e870a0623ed073b8, type: 3}
+  _whiteQueenPrefab: {fileID: 6581545121652856048, guid: 4c9d791c6a899374991eec1fda3c0a08, type: 3}
+  _whiteKingPrefab: {fileID: 1507766281564137900, guid: 784b1a17e68495f4d9ce1632f0b709a2, type: 3}
+  _blackPawnPrefab: {fileID: -611788000914871959, guid: 1bb0a6cffefee1c48b02e3969626a25f, type: 3}
+  _blackRookPrefab: {fileID: 6167063358315926478, guid: 49fb2c9a2d5ec2144bab6e6e52a62f97, type: 3}
+  _blackKnightPrefab: {fileID: 1883057592400204099, guid: 7c5f680bbcd1d5e4c9c4e832e38759ed, type: 3}
+  _blackBishopPrefab: {fileID: 4799905360151154913, guid: f0209753d6c66504fa7d17c22c86c6ff, type: 3}
+  _blackQueenPrefab: {fileID: 4584761845974250587, guid: 7985dd38eea934e438afc8deafeeb1bb, type: 3}
+  _blackKingPrefab: {fileID: 4900289897462924663, guid: 907986b969eb92f40903c9e3a32f4fbc, type: 3}
+  _chessBoardPrefab: {fileID: 0}
+  _cellPrefab: {fileID: 2622535440373992928, guid: 031191122ad545045b3c7de99fe50340, type: 3}
+  _boardSize: 8
+  _distanceXPlus: 0.35
+  _distanceZPlus: 0.35
+  _cellDistanceX: 0
+  _cellDistanceZ: 0
