@@ -13,6 +13,7 @@ Highlight: 🟡 moves / 🔴 attacks
 Zenject + Command pattern
 
 🚧 Planned
+
 Check / checkmate
 
 Pawn promotion
