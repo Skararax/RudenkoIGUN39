@@ -33,7 +33,7 @@ public class BattleController : MonoBehaviour
             return;
         }
 
-        _currentCommand = new SelectUnitCommand(this, _battlefield);
+        _currentCommand = new SelectUnitCommand(this, _battlefield, _validator);
 
         SetupInput();
     }

@@ -91,4 +91,23 @@ public class ChessValidator : MonoBehaviour
 
         return false;
     }
+
+    private bool IsMoveLegal(Unit unit, Cell targetCell) 
+    { 
+        Cell fromCell = unit.cell;
+        Unit targetUnit = targetCell.currentUnit;
+
+        fromCell.SetUnit(null);
+        targetCell.SetUnit(unit);
+        unit.cell = targetCell;
+
+        bool stillInCheck = isCheck(unit.team);
+
+        fromCell.SetUnit(unit);
+        targetCell.SetUnit(targetUnit);
+        unit.cell = fromCell;
+
+        return !stillInCheck;
+
+    }
 }

@@ -7,12 +7,14 @@ public class SelectUnitCommand : IGameplayCommand
 {
     private BattleController _battleController;
     private Battlefield _battlefield;
+    private ChessValidator _chessValidator;
 
     [Inject]
-    public SelectUnitCommand(BattleController battleController, Battlefield battlefield)
+    public SelectUnitCommand(BattleController battleController, Battlefield battlefield, ChessValidator chessValidator)
     {
         _battleController = battleController;
         _battlefield = battlefield;
+        _chessValidator = chessValidator;
     }
 
     public void Execute(Cell selectedCell)
@@ -78,7 +80,7 @@ public class SelectUnitCommand : IGameplayCommand
                     _battlefield.HighlightCells(moves, attacks);
                 }
 
-                _battleController.SetCommand(new MoveUnitCommand(_battleController, _battlefield));
+                _battleController.SetCommand(new MoveUnitCommand(_battleController, _battlefield, _chessValidator));
             }
             else
             {
