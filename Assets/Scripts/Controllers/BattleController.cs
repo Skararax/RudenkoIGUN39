@@ -1,31 +1,32 @@
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngineInternal;
 using Zenject;
-using static Enums;
 
-public class BattleController : MonoBehaviour
+public class BattleController : ITickable, IInitializable, IDisposable
 {
     [SerializeField] private InputActionAsset _inputActionsAsset;
 
     private Camera _camera;
     private InputAction _selectAction;
     private IGameplayCommand _currentCommand;
+    private Battlefield _battlefield;
+    private ChessValidator _validator;
 
     public Enums.Team CurrentTurn { get; private set; } = Enums.Team.White;
     public Unit SelectedUnit { get; private set; }
     public IGameplayCommand CurrentCommand => _currentCommand;
 
-    [Inject] private Battlefield _battlefield;
-    [Inject] private ChessValidator _validator;
-
-    [Inject]
-    public void Construct(Camera camera)
-    {
+  
+    public BattleController(InputActionAsset inputActions, Camera camera, Battlefield battlefield, ChessValidator chessValidator) 
+    { 
+        _inputActionsAsset = inputActions;
         _camera = camera;
+        _battlefield = battlefield;
+        _validator = chessValidator;
     }
 
-    private void Start()
+    public void Initialize()
     {
         if (_camera == null) 
         {
@@ -38,7 +39,7 @@ public class BattleController : MonoBehaviour
         SetupInput();
     }
 
-    void Update()
+    public void Tick()
     {
         if (Input.GetKeyDown(KeyCode.C))
         {
@@ -47,7 +48,7 @@ public class BattleController : MonoBehaviour
         }
     }
 
-    private void OnDestroy()
+    public void Dispose()
     {
         if (_selectAction != null)
         {

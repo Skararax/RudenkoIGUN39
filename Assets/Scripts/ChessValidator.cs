@@ -1,20 +1,20 @@
-using System.Collections;
-using System.Collections.Generic;
-using Palmmedia.ReportGenerator.Core.Reporting.Builders;
-using Unity.PlasticSCM.Editor.WebApi;
-using Unity.VisualScripting;
+using System;
 using UnityEngine;
 using Zenject;
 
-public class ChessValidator : MonoBehaviour
+public class ChessValidator : ITickable, IInitializable, IDisposable
 {
-     private Battlefield _battlefield;
+    private Battlefield _battlefield;
 
     [Inject]
-    private void Construct(Battlefield battlefield)
+    public void Construct(Battlefield battlefield)
     {
         _battlefield = battlefield;
     }
+
+    public void Initialize() { }
+    public void Tick() { }
+    public void Dispose() { }
 
     public bool isCheck(Enums.Team team)
     {

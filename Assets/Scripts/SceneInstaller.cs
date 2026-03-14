@@ -1,17 +1,17 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 using Zenject;
 
 public class SceneInstaller : MonoInstaller
 {
-    [SerializeField] private BattleController _battleControllerPrefab;
     [SerializeField] private Battlefield _battlefieldPrefab;
-    [SerializeField] private ChessValidator _chessValidatorPrefab;
+    [SerializeField] private InputActionAsset _inputActionAsset;
 
     public override void InstallBindings()
     {
         Container.BindInterfacesAndSelfTo<BattleController>()
-            .FromComponentInNewPrefab(_battleControllerPrefab)
             .AsSingle()
+            .WithArguments(_inputActionAsset)
             .NonLazy();
 
         Container.Bind<Battlefield>()
@@ -20,8 +20,8 @@ public class SceneInstaller : MonoInstaller
             .NonLazy();
 
         Container.Bind<ChessValidator>()
-            .FromComponentInNewPrefab(_chessValidatorPrefab)
-            .AsSingle();
+            .AsSingle()
+            .NonLazy();
 
         Container.Bind<Camera>()
             .FromComponentInHierarchy()

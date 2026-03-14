@@ -1,6 +1,4 @@
-using System.Drawing;
 using UnityEngine;
-using UnityEngine.UIElements;
 
 public class Cell : MonoBehaviour
 {

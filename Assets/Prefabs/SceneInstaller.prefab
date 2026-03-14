@@ -44,6 +44,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1706c499720db541acd85639f5aaa84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _battleControllerPrefab: {fileID: 6354271613499544110, guid: 33d6e2245e452f3459f42ec4f4dab7ca, type: 3}
   _battlefieldPrefab: {fileID: 1073883717398269396, guid: 1d7ca2c929c3d7c44a2132b8713e301d, type: 3}
   _chessValidatorPrefab: {fileID: 3538930016341993435, guid: 5c31c518b1928e041b6f77c632061397, type: 3}
+  _inputActionAsset: {fileID: -944628639613478452, guid: a45a57d22836d954cba713503d3172c9, type: 3}

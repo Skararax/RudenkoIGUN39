@@ -1,8 +1,4 @@
-using System.Collections;
 using System.Collections.Generic;
-using System.Drawing;
-using JetBrains.Annotations;
-using OpenCover.Framework.Model;
 using UnityEngine;
 
 public class Battlefield : MonoBehaviour
