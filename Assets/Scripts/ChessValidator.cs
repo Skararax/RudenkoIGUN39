@@ -1,4 +1,6 @@
 using System;
+using System.Collections.Generic;
+using System.Runtime.InteropServices.WindowsRuntime;
 using UnityEngine;
 using Zenject;
 
@@ -90,6 +92,49 @@ public class ChessValidator : ITickable, IInitializable, IDisposable
         }
 
         return false;
+    }
+
+    public bool IsCheckmate(Enums.Team team)
+    {
+        if (!isCheck(team)) return false;
+
+        foreach (var cell in _battlefield.GetAllCells().Values)
+        {
+            Unit unit = cell.currentUnit;
+            if (unit == null || unit.team != team) continue;
+
+            var (moves, attacks) = GetRulesForUnit(unit).GetPossibleMoves(unit, _battlefield.GetAllCells());
+
+            List<Vector2Int> allTargets = new List<Vector2Int>();
+            allTargets.AddRange(moves);
+            allTargets.AddRange(attacks);
+
+            foreach (var targetPos in allTargets) 
+            {
+                Cell targetCell = _battlefield.GetCellAt(targetPos);
+                if (targetCell == null) continue;
+
+                if (IsMoveLegal(unit, targetCell)) 
+                { 
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
+
+    private IRules GetRulesForUnit(Unit unit) 
+    {
+        return unit.type switch
+        {
+            Enums.UnitType.Pawn => new PawnRules(),
+            Enums.UnitType.Rook => new RookRules(),
+            Enums.UnitType.Knight => new KnightRules(),
+            Enums.UnitType.Bishop => new BishopRules(),
+            Enums.UnitType.Queen => new QueenRules(),
+            Enums.UnitType.King => new KingRules(),
+            _ => null
+        };
     }
 
     private bool IsMoveLegal(Unit unit, Cell targetCell) 

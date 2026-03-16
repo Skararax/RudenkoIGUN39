@@ -185,4 +185,8 @@ public class Battlefield : MonoBehaviour
         return null;
     }
 
+    public Cell GetCellAt(Vector2Int cell) 
+    {
+        return _cells[cell];
+    }
 }

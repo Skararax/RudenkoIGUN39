@@ -43,3 +43,8 @@ text
 - Injected dependencies via constructor (Battlefield)
 - Updated SceneInstaller: registered ChessValidator as single instance
 - Improved testability and separation of concerns
+
+## 🔄 Update — March 17, 2026
+- Full check detection — king under attack blocks illegal moves
+- Checkmate detection — no legal moves available ends the game
+- Virtual move simulation to validate king safety

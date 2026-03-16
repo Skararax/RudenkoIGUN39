@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class KingRules : MonoBehaviour
+public class KingRules : IRules
 {
     public (List<Vector2Int> moves, List<Vector2Int> attacks) GetPossibleMoves(Unit unit, Dictionary<Vector2Int, Cell> cells) 
     {

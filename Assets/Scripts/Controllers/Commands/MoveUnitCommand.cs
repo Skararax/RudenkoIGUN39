@@ -81,6 +81,11 @@ public class MoveUnitCommand : IGameplayCommand
         _battleController.SelectedUnit.UnitHighlight(false);
         _battleController.SwitchTurn();
         _battlefield.ClearHighlights();
+        if (_chessValidator.IsCheckmate(_battleController.CurrentTurn)) 
+        {
+            Debug.Log($"Checkmate! {_battleController.CurrentTurn} defeat!");
+            //add Logic
+        }
 
         _battleController.SetCommand(new SelectUnitCommand(_battleController, _battlefield, _chessValidator));
     }
