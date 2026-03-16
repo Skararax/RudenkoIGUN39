@@ -37,7 +37,6 @@ UI improvements
 - Full checkmate detection
 
 ## 🔄 Update — March 15, 2026
-text
 - Refactored ChessValidator: removed MonoBehaviour, now pure C# class
 - Added IInitializable/ITickable/IDisposable interfaces for lifecycle management
 - Injected dependencies via constructor (Battlefield)
