@@ -6,6 +6,7 @@ public class SceneInstaller : MonoInstaller
 {
     [SerializeField] private Battlefield _battlefieldPrefab;
     [SerializeField] private InputActionAsset _inputActionAsset;
+    [SerializeField] private PawnChanger _pawnChangerPrefab;
 
     public override void InstallBindings()
     {
@@ -25,6 +26,10 @@ public class SceneInstaller : MonoInstaller
 
         Container.Bind<Camera>()
             .FromComponentInHierarchy()
+            .AsSingle();
+
+        Container.Bind<PawnChanger>()
+            .FromComponentInNewPrefab(_pawnChangerPrefab)
             .AsSingle();
     }
 }

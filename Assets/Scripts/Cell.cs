@@ -18,6 +18,8 @@ public class Cell : MonoBehaviour
     public void SetUnit(Unit unit)
     {
         currentUnit = unit;
+
+        Debug.Log($"{unit} успешно назначен на клетку {gridPosition}!");
     }
 
     public void SetGridPosition(Vector2Int gridPosition)
@@ -41,10 +43,4 @@ public class Cell : MonoBehaviour
             _cellRenderer.material.color = _originalColor;
         }
     }
-
-    //private void OnDrawGizmos()
-    //{
-    //    Gizmos.color = Color.red;
-    //    Gizmos.DrawCube(transform.position, Vector3.one * 0.4f);
-    //}
 }

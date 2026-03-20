@@ -47,3 +47,12 @@ UI improvements
 - Full check detection — king under attack blocks illegal moves
 - Checkmate detection — no legal moves available ends the game
 - Virtual move simulation to validate king safety
+
+## 🔄 Update — March 21, 2026
+- Pawn promotion implemented — pawn now transforms into chosen piece upon reaching the last rank
+
+- UI selection panel with buttons for Rook, Knight, Bishop, Queen
+
+- Clean architecture — PawnChanger handles UI and spawning, BattleController manages game flow
+
+- Bug fixes — fixed missing reference issues, proper cleanup of old pawn, correct cell-unit binding

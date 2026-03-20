@@ -12,18 +12,20 @@ public class BattleController : ITickable, IInitializable, IDisposable
     private IGameplayCommand _currentCommand;
     private Battlefield _battlefield;
     private ChessValidator _validator;
+    private PawnChanger _pawnChanger;
 
     public Enums.Team CurrentTurn { get; private set; } = Enums.Team.White;
     public Unit SelectedUnit { get; private set; }
     public IGameplayCommand CurrentCommand => _currentCommand;
 
   
-    public BattleController(InputActionAsset inputActions, Camera camera, Battlefield battlefield, ChessValidator chessValidator) 
+    public BattleController(InputActionAsset inputActions, Camera camera, Battlefield battlefield, ChessValidator chessValidator, PawnChanger pawnChanger) 
     { 
         _inputActionsAsset = inputActions;
         _camera = camera;
         _battlefield = battlefield;
         _validator = chessValidator;
+        _pawnChanger = pawnChanger;
     }
 
     public void Initialize()
@@ -41,11 +43,6 @@ public class BattleController : ITickable, IInitializable, IDisposable
 
     public void Tick()
     {
-        if (Input.GetKeyDown(KeyCode.C))
-        {
-            bool check = _validator.isCheck(Enums.Team.White);
-            Debug.Log($"White king check: {check}");
-        }
     }
 
     public void Dispose()
@@ -60,7 +57,6 @@ public class BattleController : ITickable, IInitializable, IDisposable
     { 
         if (unit == null) return;
         SelectedUnit = unit;
-        Debug.Log($"{unit.name} selected!");
     }
 
     private void SetupInput()
@@ -111,14 +107,18 @@ public class BattleController : ITickable, IInitializable, IDisposable
         CurrentTurn = CurrentTurn == Enums.Team.White
             ? Enums.Team.Black
             : Enums.Team.White;
-
-        Debug.Log($"Step: {CurrentTurn}");
     }
-
+     
     public void SetCommand(IGameplayCommand newCommand)
     {
         _currentCommand = newCommand;
-        Debug.Log($"Command: {newCommand.GetType().Name}");
     }
 
+    public void PromotePawn(Unit unit, Cell cell) 
+    {
+        Vector2Int pos = cell.gridPosition;
+        Enums.Team team = unit.team;
+
+        _pawnChanger.StartPromotion(pos, team, unit);
+    }
 }

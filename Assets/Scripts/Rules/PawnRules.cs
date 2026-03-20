@@ -47,8 +47,13 @@ public class PawnRules : IRules
         return (moves, attacks);
     }
 
+    public bool CanPromote(Unit unit) =>
+    unit.team == Enums.Team.White && unit.cell.gridPosition.y == 7;
+    
+
     private bool IsCellValid(Vector2Int pos, Dictionary<Vector2Int, Cell> cells)
     {
         return cells.ContainsKey(pos);
     }
+
 }

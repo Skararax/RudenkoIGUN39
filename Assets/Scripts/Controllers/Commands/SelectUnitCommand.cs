@@ -17,22 +17,17 @@ public class SelectUnitCommand : IGameplayCommand
 
     public void Execute(Cell selectedCell)
     {
-        Debug.Log($"SelectUnitCommand: clicked cell at {selectedCell.gridPosition}");
-
         Unit unit = selectedCell.currentUnit;
 
         if (unit != null)
         {
             if (unit.team != _battleController.CurrentTurn)
             {
-                Debug.Log("Сейчас не твой ход!");
                 return;
             }
 
             if (unit.team == _battleController.CurrentTurn)
             {
-                Debug.Log($"Find unit: {unit.name}!");
-
                 if (_battleController.SelectedUnit != null)
                 {
                     _battleController.SelectedUnit.UnitHighlight(false);

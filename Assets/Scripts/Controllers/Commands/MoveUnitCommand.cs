@@ -17,20 +17,17 @@ public class MoveUnitCommand : IGameplayCommand
     {
         if (selectedCell == null)
         {
-            Debug.LogWarning("Cell not found");
             _battleController.SetCommand(new SelectUnitCommand(_battleController, _battlefield, _chessValidator));
             return;
         }
 
         if (_battleController.SelectedUnit == null)
         {
-            Debug.Log("No unit selected!");
             return;
         }
 
         if (!_battlefield.IsCellHighlighted(selectedCell)) 
         {
-            Debug.Log("Cannot move there!");
             _battleController.SetCommand(new SelectUnitCommand(_battleController, _battlefield, _chessValidator));
             _battlefield.ClearHighlights();
             _battleController.SelectedUnit.UnitHighlight(false);
@@ -55,7 +52,6 @@ public class MoveUnitCommand : IGameplayCommand
 
         if (stillInCheck)
         {
-            Debug.Log($"Step not possible! King {movingUnit.team} stell check!");
             _battlefield.ClearHighlights();
             _battleController.SelectedUnit.UnitHighlight(false);
             _battleController.SetCommand(new SelectUnitCommand(_battleController, _battlefield, _chessValidator));
@@ -63,10 +59,9 @@ public class MoveUnitCommand : IGameplayCommand
         }
         if (selectedCell.currentUnit != null) 
         {
-            Debug.Log($"Attacking enemy unit at {selectedCell.gridPosition}");
-
             _battlefield.DestroyUnit(selectedCell.currentUnit);
         }
+
 
         Cell oldCell = _battleController.SelectedUnit.cell;
 
@@ -81,6 +76,16 @@ public class MoveUnitCommand : IGameplayCommand
         _battleController.SelectedUnit.UnitHighlight(false);
         _battleController.SwitchTurn();
         _battlefield.ClearHighlights();
+
+        if (movingUnit.type == Enums.UnitType.Pawn)
+        {
+            PawnRules pawnRules = new PawnRules();
+            if (pawnRules.CanPromote(movingUnit)) 
+            {
+                _battleController.PromotePawn(movingUnit, movingUnit.cell);
+            }
+        }
+
         if (_chessValidator.IsCheckmate(_battleController.CurrentTurn)) 
         {
             Debug.Log($"Checkmate! {_battleController.CurrentTurn} defeat!");
